@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // Q2 : >> Giving 10% offer on the idividual values in an array using "For of " Loop>>>>>>>>>
+    let items = [250, 645, 300, 900, 50]
+
+let i = 0;
+for (let val of items){
+     let offer = val / 10 ;
+     items[i] = items[i] - offer;
+     console.log(`value after 10% offer is ${items[i]}`)
+     i++;
+}
+
+</script>
+<body>
+    
+</body>
+</html>
